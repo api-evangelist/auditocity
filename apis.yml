@@ -1,7 +1,15 @@
 aid: auditocity
 name: Auditocity
-description: Auditocity is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Auditocity is an HR compliance software platform that helps organizations of
+  any size master regulatory requirements and best practices. It maintains a library of
+  more than 14,000 questions spanning federal, state, and industry-specific HR compliance,
+  automatically generating custom-built audits tailored to an organization's industry,
+  size, and location. The platform produces actionable findings reports that identify
+  compliance gaps, tracks requirements across all 50 states, and delivers real-time
+  regulatory updates through an HR technology partner network. Auditocity is a Techstars
+  portfolio company. No public API, developer portal, or machine-readable specification
+  has been published at this time; this profile captures its identity and public web
+  surface in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/auditocity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +17,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://auditocity.com/favicon.png
 tags:
 - Company
+- HR
+- Compliance
+- Auditing
+- Regulatory
+- Human Resources
+- Governance
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://auditocity.com/
+- type: Blog
+  url: https://auditocity.com/blog
+- type: SignUp
+  url: https://app.auditocity.com/get-started
+- type: Login
+  url: https://app.auditocity.com/login
+- type: TermsOfService
+  url: https://auditocity.com/terms
+- type: PrivacyPolicy
+  url: https://auditocity.com/privacy
+- type: DomainSecurity
+  url: security/auditocity-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
